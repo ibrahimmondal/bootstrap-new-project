@@ -1,0 +1,45 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.carousel-indicators{
+    position: relative !important;
+}
+.item{
+    max-width: 800px;
+    margin: auto;
+}
+.item img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 100%;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: red !important;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 100%;
+}
+.star i{
+   color: red;
+   font-size: 1.5rem;
+   padding: 0 .5rem;
+   margin-bottom: 1.5rem;
+}
+.star{
+  
+   margin-bottom: 1.5rem;
+}
+i.bi.bi-arrow-right-circle {
+    color: red;
+    font-size: 1.5rem;
+}
+i.bi.bi-arrow-left-circle {
+    color: red;
+    font-size: 1.5rem;
+}
+@media (max-width: 400px) {
+     .item q{
+        font-size: 14px!important;
+     }
+}

@@ -1,0 +1,519 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:wght@100..900&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Instrument Sans", sans-serif;
+  background-color: var(---dark-color--);
+  color: var(---text-color--);
+}
+html {
+  ---dark-color--: #14151c;
+  ---text-color--: #ffff;
+  ---primary-color--: #e0f014;
+  ---broder-color--: #272933;
+  ---p-color--: #c9ccd9;
+}
+/* button style start  */
+.btn {
+  border-radius: 0;
+  border: 1px solid var(---text-color--);
+  font-size: 14px;
+  line-height: 17px;
+  background-color: transparent;
+  padding: 12px 24px;
+  color: white;
+}
+.btn:hover {
+  border-radius: 0;
+  border: 1px solid var(---text-color--);
+  font-size: 14px;
+  line-height: 17px;
+  background-color: transparent;
+  padding: 12px 24px;
+  color: black;
+  background-color: white;
+}
+.primery-btn {
+  border-radius: 0;
+  border: 1px solid var(---primary-color--);
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 17px;
+  background-color: var(---primary-color--);
+  padding: 12px 24px;
+  color: black;
+  display: inline-block;
+  margin-top: 10px;
+}
+.get {
+  display: block;
+  width: 100%;
+  margin-top: -5px;
+  font-weight: 500;
+}
+.primery-btn:hover {
+  border-radius: 0;
+  border: 1px solid var(---text-color--);
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 17px;
+  background-color: var(---text-color--);
+  padding: 12px 24px;
+  color: black;
+}
+/* button style end */
+/**** header style start *****/
+.top-bar p {
+  font-size: 14px;
+  color: var(---dark-color--);
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+.top-bar {
+  background-color: var(---primary-color--);
+}
+.top-bar:hover {
+  background-color: var(---text-color--);
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+}
+.navbar {
+  border-bottom: 1px solid var(---broder-color--);
+  margin-top: 38px;
+}
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 700;
+}
+.nav-link {
+  font-size: 14px;
+  color: var(---text-color--);
+  line-height: 21px;
+}
+.nav-link:hover {
+  color: var(---primary-color--);
+}
+.navbar-toggler {
+  background-color: var(---primary-color--);
+  border-radius: 0px;
+}
+/**** header style end *****/
+
+/**** hero style start *****/
+.hero-content {
+  max-width: 850px;
+  padding-top: 50px;
+  margin: auto;
+}
+.hero-content h1 {
+  font-size: 60px;
+  line-height: 66px;
+  color: var(---text-color--);
+  font-weight: 500;
+}
+.hero-content p {
+  font-size: 15px;
+  line-height: 27px;
+  color: var(---p-color--);
+  font-weight: 400;
+  max-width: 600px;
+  margin: 24px auto;
+}
+.hero-uppertext {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  color: var(---p-color--);
+  border-bottom: 2px solid var(---p-color--);
+  display: inline-block;
+}
+.hero-client-img img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border: 2px solid var(---primary-color--);
+}
+.hero-client-content {
+  font-size: 20px;
+  line-height: 30px;
+}
+.hero-client-content p:last-child {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(---text-color--);
+  margin-bottom: 100px;
+}
+.iner-text {
+  color: var(---primary-color--);
+}
+.video {
+  aspect-ratio: 16/9;
+  max-width: 1200px;
+  margin: auto;
+  max-height: 700px;
+}
+
+.padded-container {
+  max-width: 1230px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+iframe {
+  height: 100%;
+  width: 100%;
+}
+/**** hero style end *****/
+/**** Counter style start *****/
+.Counter p{
+  font-size: 18px;
+  line-height: 24px;
+}
+.Counter h1{
+  color: var(---primary-color--);
+}
+.Counter {
+  background-color: var(---broder-color--);
+  padding: 50px 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/**** Counter style end *****/
+/**** service style start *****/
+.service{
+  margin-top: 200px;
+  align-items: center;
+}
+.service h3{
+  color: var(---primary-color--);
+}
+.service p{
+  color:var(---p-color--);
+  margin: 15px 0;
+}
+.service h6{
+  color:var(---p-color--);
+  margin: 15px 0;
+}
+.service-right h1{
+  font-size: 24px;
+  line-height: 34px;  
+}
+.service-right p{
+  font-size: 18px;
+  line-height: 27px;  
+}
+.service-right{
+  padding: 30px;
+  background-color: var(---broder-color--);
+}
+/**** service style end *****/
+/**** swiper and work style start *****/
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.work-content h1{
+  color: var(---primary-color--);
+}
+.work-content p{
+  color: var(---text-color--);
+  font-size: 32px;
+  line-height: 38px;
+  margin-bottom: 20px;
+}
+.work {
+  max-width: 1064px;
+  height: 750px;
+  text-align: center;
+  padding-top: 150px;
+  margin-bottom: 200px;
+}
+.swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: var(--swiper-pagination-color, #f8f8f8);
+}
+.swiper-pagination-bullet {
+  background: var(--swiper-pagination-bullet-inactive-color,#dadada);
+
+}
+/**** swiper and work style end *****/
+/**** tiktok Growth style start*****/
+.tiktok-left{
+  background-color: var(---primary-color--);
+  width: 721px;
+  padding: 50px 0;
+  text-align: center;
+}
+.tiktok-left img{
+  text-align: center;
+  object-position: center;
+}
+.tiktok{
+  padding: 50px 0px;
+}
+.tiktok-content{
+  margin-bottom: 20px;
+}
+.tiktok-right{
+  background-color: var(---broder-color--);
+  padding: 55px 40px;
+  
+}
+.tiktok-right h1{
+ font-size: 32px;
+ line-height: 38px;
+  
+}
+.growth{
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid var(---primary-color--);
+  margin-bottom: 20px;
+  display: inline-block;
+  color: var(---text-color--);
+  border-radius: 8px;
+}
+.results{
+  color: var(---primary-color--);
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  margin-bottom: 45px;
+  display: inline-block;
+}
+.results:hover{
+  color: var(---text-color--);
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: underline;
+}
+.Views h1{
+  color: var(---primary-color--);
+}
+
+
+/**** tiktok Growth style end *****/
+/**** img scrolling Growth style start *****/
+.animated-group{
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.animated img{
+  aspect-ratio: 12 / 9;
+  height: 100%;
+  width: 100%;
+}
+.marquee {
+  overflow: hidden;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.animated{
+ background-color: var(---primary-color--);
+ width: 16.6%;
+ max-height: 250px;
+}
+/**** img scrolling Growth style end *****/
+/**** our Process Growth style start *****/
+.hero-content .our{
+  color: var(---primary-color--);
+  font-size: 16px;
+  margin-top: 100px;
+  text-align: center;
+}
+.hero-content .going{
+  color: var(---text-color--);
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.process{
+  background-color: var(---broder-color--);
+  padding: 50px;
+  margin-bottom: 20px;
+}
+.process p{
+  margin: 0px;
+  padding: 20px 0;
+}
+.process .call{
+  margin: 0px;
+  padding: 2px 0;
+}
+.process h2{
+  color: var(---primary-color--);
+}
+.process h5{
+  font-size:24px;
+}
+/**** our Process  style end *****/
+/**** Testimonials style start *****/
+.testimonials-text{
+  color: var(---primary-color--);
+  font-size: 16px;
+  margin-top: 100px;
+  text-align: center;
+}
+.client{
+  color: var(---text-color--);
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.testimonials{
+  background-color: var(---broder-color--);
+  padding: 50px;
+  margin-bottom: 90px;
+}
+.testimonials h2{
+ font-size: 24px;
+}
+
+.testimonials p:last-child{
+  font-size: 18px;
+  font-weight: 400;
+  color: var(---text-color--);
+  margin-top: 2px;
+}
+.testimonials .client-name{
+  margin-bottom: 2px;
+}
+.testimonials img{
+  padding-bottom: 10px;
+}
+.testimonials .text{
+  padding-bottom: 70px;
+  border-bottom: 1px solid var(---text-color--);
+}
+/**** Testimonials style end *****/
+/**** faq style start *****/
+.hero-content .faq-text{
+  color: var(---primary-color--);
+  font-size: 16px;
+  text-align: center;
+}
+.hero-content .asked{
+ font-size: 36px;
+  font-size: 16px;
+  text-align: center;
+}
+.accordion {
+  --bs-accordion-bg: #272933;
+}
+.accordion-button {
+  color: #ffffff;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #000000;
+  background-color: #ffffff;
+}
+.accordion-item {
+  color: var(---text-color--);
+}
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-plus-lg' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2'/%3E%3C/svg%3E");
+ 
+}
+.accordion-button:not(.collapsed)::after{
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8'/%3E%3C/svg%3E");
+}
+/**** faq style end *****/
+/**** go-Viral style start *****/
+.go-Viral{
+  margin-top: 200px;
+  background-color: var(---broder-color--);
+  text-align: center;
+  padding: 50px 0;
+}
+.go-Viral img{
+  padding-bottom: 30px;
+}
+.go-Viral h1{
+  color: var(---text-color--);
+  padding-bottom: 30px;
+}
+.go-Viral h1 span{
+  color: var(---primary-color--);
+  padding-bottom: 30px;
+}
+.book{
+  text-align: center;
+  padding: 50px 0;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+.book:hover{
+  text-align: center;
+  padding: 50px 0;
+  font-weight: 600;
+  font-size: 24px;
+}
+/**** go-Viral style end *****/
+/**** call style start *****/
+.call{
+  margin-top: 100px;
+}
+.call img{
+  border-radius: 100%;
+}
+/**** call style end *****/
+
+/* responsive style start  */
+@media (max-width: 600px) {
+  .hero-content h1 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+}
+@media (max-width: 768px){
+  .service{
+    flex-direction: column;
+  }
+  .footer{
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  .socal{
+    text-align: center;
+    display: inline;
+  }
+}
+@media (max-width: 992px){
+  .tiktok-content{
+    flex-direction: column;
+  
+  }
+  .tiktok-left{
+    text-align: center;
+  }
+
+}
+/* responsive style end  */
